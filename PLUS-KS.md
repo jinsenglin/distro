@@ -14,7 +14,7 @@ Steps
 
 ---
 
-# Prepare Kickstart file
+# Prepare a kickstart file
 
 ```
 touch ~/kickstart_build/isolinux/ks/ks.cfg
@@ -24,7 +24,7 @@ touch ~/kickstart_build/isolinux/ks/ks.cfg
 
 ---
 
-# Verify installation by kickstart file
+# Verify installation by the kickstart file
 
 ```
 # Now start a new virtual machine from your custom distro ISO file and insert the following option at kernel boot:
