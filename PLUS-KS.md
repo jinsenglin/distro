@@ -27,7 +27,7 @@ touch ~/kickstart_build/isolinux/ks/ks.cfg
 # Verify installation by kickstart file
 
 ```
-# Now start a new virtual machine from your custom CentOS 7 ISO file and insert the following option at kernel boot:
+# Now start a new virtual machine from your custom distro ISO file and insert the following option at kernel boot:
 
 linux inst.ks=cdrom:/dev/cdrom:/ks/ks.cfg
 
