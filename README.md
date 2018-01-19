@@ -8,7 +8,7 @@ vagrant up
 vagrant ssh
 
 sudo su
-yum install -y rsync createrepo
+yum install -y rsync createrepo genisoimage
 ```
 
 # Download a base distro
@@ -58,4 +58,11 @@ rsync -av /mnt/iso/Packages/ ~/kickstart_build/isolinux/Packages/
 
 cd ~/kickstart_build/isolinux
 createrepo -g ~/kickstart_build/comps.xml .
+```
+
+# Create a custom distro ISO file
+
+```
+cd ~/kickstart_build/
+mkisofs -o centos-7-custom.iso -b isolinux.bin -c boot.cat -no-emul-boot -V 'CentOS 7 x86_64' -boot-load-size 4 -boot-info-table -R -J -v -T isolinux/
 ```
