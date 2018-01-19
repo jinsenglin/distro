@@ -3,7 +3,7 @@ REF http://www.frankreimer.de/?p=522
 # Prepare a building machine
 
 ```
-vagrant init bento/centos-7.2
+vagrant init bento/centos-7.2 --box-version 2.3.1
 vagrant up
 vagrant ssh
 
