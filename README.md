@@ -52,6 +52,6 @@ ll /mnt/iso/repodata/ | grep -i comps
 cp /mnt/iso/repodata/0e6e90965f55146ba5025ea450f822d1bb0267d0299ef64dd4365825e6bad995-c7-x86_64-comps.xml.gz ~/kickstart_build/
 
 cd ~/kickstart_build/
-gunzip 0e6e90965f55146ba5025ea450f822d1bb0267d0299ef64dd4365825e6bad995-c7-x86_64-comps.xml
+gunzip 0e6e90965f55146ba5025ea450f822d1bb0267d0299ef64dd4365825e6bad995-c7-x86_64-comps.xml.gz
 mv 0e6e90965f55146ba5025ea450f822d1bb0267d0299ef64dd4365825e6bad995-c7-x86_64-comps.xml comps.xml
 ```
