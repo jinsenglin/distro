@@ -65,4 +65,6 @@ createrepo -g ~/kickstart_build/comps.xml .
 ```
 cd ~/kickstart_build/
 mkisofs -o centos-7-custom.iso -b isolinux.bin -c boot.cat -no-emul-boot -V 'CentOS 7 x86_64' -boot-load-size 4 -boot-info-table -R -J -v -T isolinux/
+
+# output file: ~/kickstart_build/centos-7-custom.iso
 ```
