@@ -28,4 +28,6 @@ touch ~/kickstart_build/isolinux/ks/ks.cfg
 # Now start a new virtual machine from your custom CentOS 7 ISO file and insert the following option at kernel boot:
 
 linux inst.ks=cdrom:/dev/cdrom:/ks/ks.cfg
+
+# Hint: in boot menu type `esc` two times to enter boot mode prompter
 ```
