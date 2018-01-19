@@ -18,6 +18,8 @@ Steps
 
 ```
 touch ~/kickstart_build/isolinux/ks/ks.cfg
+
+# Hint: lazy way is `cp anaconda-ks.cfg ~/kickstart_build/isolinux/ks/ks.cfg`
 ```
 
 ---
