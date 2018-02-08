@@ -68,3 +68,7 @@ mkisofs -o centos-7-custom.iso -b isolinux.bin -c boot.cat -no-emul-boot -V 'Cen
 
 # output file: ~/kickstart_build/centos-7-custom.iso
 ```
+
+# Additional Resources
+
+Anaconda is the installer used by Red Hat Enterprise Linux, Fedora, and their derivatives. This document contains information necessary for customizing it. https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/anaconda_customization_guide/index
